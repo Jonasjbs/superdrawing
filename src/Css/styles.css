@@ -1,0 +1,162 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;  /* Utilisando estas teg e posivel redusir o espassamento e espações disnecessario */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* borda */
+
+.borda { border:1px  solid #fff}
+
+
+/* Cabeçalho*/
+
+header { background-color:#2a2828 ;
+    color: #B0C4DE;
+    padding: 28px;
+    text-align: center;
+border-bottom: 8px solid #020304;
+}
+
+/* ares de link para os desenhos grsandes*/
+
+ .link2 {background-color: rgb(27, 5, 65);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: aliceblue;
+border-left: #020304;
+
+}
+.link3 { border-bottom: 3px solid rgb(4, 3, 1);
+
+   
+
+}
+
+
+/* Grade De Drawing*/ 
+
+.content { background-color: #555;
+    min-height: 60vh;
+    padding: 50px;
+    
+
+
+     /* 60vh utiliza 60% da tela do seu sit*/
+}
+
+. products-container{ max-width: 1200px;
+    margin: 0% auto;
+
+}
+
+/* GRADE DE DESENHO*/
+
+.card {
+
+    width: 31%;
+    display: inline-block;
+    margin:1% 1%;
+    padding: 15px;
+
+}
+
+.products-image {
+
+    height: 300px;
+    width:100%; 
+    margin-bottom:10px;
+    background-position: center; /* CENTALIZA A IMAGEM */
+    background-size: cover /* BACKGRONUD SIZE CENTRALIZA A IMAGEM NO FOCO,*/
+    ;/* tamanho que vai ficart a imagem já é definida no proprio css*/
+    border-radius: 15px;
+}
+
+
+#img-1{
+    background-image:url('../fotos/ima17.jpg') ;
+}
+
+#img-2{
+    background-image:url('../fotos/ima22.jpg') ;}
+
+    #img-3{
+        background-image:url('../fotos/ima9.jpg') ;}
+
+
+        #img-4{
+            background-image:url('../fotos/ima4.jpg') ;}
+
+            #img-5{
+                background-image:url('../fotos/ima5.jpg') ;}
+
+                #img-6{
+                    background-image:url('../fotos/ima6.jpg') ;}
+
+                    
+
+                    h3{background-color:rgb(3, 0, 11) ;
+                        color: rgb(182, 176, 176);
+                        /* border-left: 5px solid rgb(231, 227, 223); */
+                        padding-left: 7px;
+                        font-size: 24px;
+                        transition:.5s;
+                       
+ }
+
+
+ .card p {
+
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color:rgb(80, 79, 79);
+ }
+
+ .bold {
+    font-weight: bold;
+ }
+
+.btn { display: block;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+text-decoration:none;
+color: darkgrey;
+padding: 15px; 
+border-radius: 5px;
+transition: 0.9s;
+background-color: black;
+}
+
+.btn:hover{ background-color: rgba(229, 233, 219, 0.659);}
+
+
+
+
+
+
+/* footer rodapé*/
+
+footer {
+
+    background-color: #2a2828;
+    color: rgb(70, 71, 72);
+    border-top:4px solid #020304;
+    text-align: center;
+padding: 35px;
+}
+
+h3{
+    border-radius: 5px;
+}
+
+header{
+    transition: 0.9s;
+}
+
+header:hover{
+background-color: #555;
+}
